@@ -1,5 +1,44 @@
-.services{
-    background-color: darkgoldenrod;
-     color: brown;
-     font-size: 30px;
-}
+
+.servicesContainer {
+    padding: 10%;
+    max-width: 600px;
+    margin: auto; 
+    text-align: center; 
+  }
+  
+  .h1 {
+    margin-bottom: 1rem;
+    font-size: 50px;
+    color: #535a4a;
+  }
+  
+  .para {
+    margin-bottom: 2rem;
+    font-size: 25px;
+    color: #715B64;
+  }
+  
+  .buttonContainer {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 0.5rem; 
+  }
+  
+  .button {
+    display: inline-block; 
+    width: 100%; 
+    max-width: 300px; 
+    padding: 1rem; 
+    background-color: #69385C; 
+    border: none; 
+    border-radius: 7px;  
+    font-size: 20px; 
+    text-align: center; 
+    text-decoration: none;  
+  }
+
+  .button:hover {
+    background-color: #835070; 
+  }
+  
